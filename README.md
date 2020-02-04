@@ -36,7 +36,7 @@
 - [ ] Subtract the Product and Sum of Digits of an Integer
 - [ ] Find Numbers with Even Number of Digits
 - [ ] Toeplitz Matrix
-- [ ] Maximum 69 Number
+- [X] Maximum 69 Number
 - [ ] Distribute Candies to People
 - [ ] Largest Perimeter Triangle
 - [ ] Palindrome Number
