@@ -31,6 +31,7 @@
 # num's digits are 6 or 9.
 
 
+
 # ---------------------------------------- My Solution ----------------------------------------
 
 # first instance of 6 in a number replaced with 9 will make it the biggest possible number with one change.
@@ -38,17 +39,14 @@
 # example num
 num = 9666
 
-
 # Create necessary variable
 times = -1
 
 # Convert int into list with individual digits
 b = str(num)
 numlist = []
-
 for i in b:
     numlist.append(int(i))
-
 
 # Replace the first instance of 6 with 9
 for i in numlist:
@@ -58,16 +56,16 @@ for i in numlist:
         numlist.insert(times, 9)
         break
 
-
 # Join the list to make an int
 s = [str(i) for i in numlist]
 maxnum = "".join(s)
-
 
 print(maxnum)
 
 # 28 ms <-- Beats 65.49%
 # Solved February 4, 2020
+
+
 
 # ---------------------------------------- 8 ms Solution on LeetCode ----------------------------------------
 
