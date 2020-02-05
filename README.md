@@ -1,5 +1,5 @@
 # PythonPracticeExercises
- #### My practice solutions to Python exercises
+ #### My solutions to Python exercises
 
 ### LeetCode
 -------------------------------
@@ -44,6 +44,9 @@
 - [ ] Happy Number
 - [ ] Power of Two
 - [ ] X of a Kind in a Deck of Cards
+
+
+
 
 
 
